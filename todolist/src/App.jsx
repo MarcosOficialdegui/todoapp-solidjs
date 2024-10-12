@@ -1,4 +1,5 @@
 import { createSignal } from 'solid-js';
+import './App.css';
 
 function App() {
   // Estado de las tareas
@@ -38,7 +39,7 @@ function App() {
 
       {/* Formulario para añadir nuevas tareas */}
       <form onSubmit={addTask}>
-        <input
+        <input class="input1-class"
           type="text"
           placeholder="Añadir nueva tarea"
           value={newTask()}
@@ -50,16 +51,29 @@ function App() {
       {/* Lista de tareas */}
       <ul>
         {tasks().map(task => (
-          <li style={{ 
-            textDecoration: task.completed ? 'line-through' : 'none' 
+          <li  style={{
+            textDecoration: task.completed ? 'line-through' : 'none'
           }} key={task.id}>
-            <input
-              type="checkbox"
-              checked={task.completed}
-              onChange={() => toggleTask(task.id)}
-            />
-            {task.text}
-            <button onClick={() => deleteTask(task.id)}>Eliminar</button>
+            <div>
+
+              <div class="elements-class">
+                
+                <input
+                  type="checkbox"
+                  class="input2-class"
+                  checked={task.completed}
+                  onChange={() => toggleTask(task.id)}
+                />
+                <p class="textoDentro-class">{task.text} </p>
+                  
+
+              </div>
+              
+              <div>
+                <button onClick={() => deleteTask(task.id)}>Eliminar</button>
+              </div>
+
+            </div>
           </li>
         ))}
       </ul>

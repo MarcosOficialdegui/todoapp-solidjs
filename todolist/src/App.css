@@ -1,0 +1,67 @@
+h1{
+    color: white;
+}
+
+.input1-class{
+    background-color: #fff4fd;
+    border-radius: 20px;
+    margin-right: 20px;
+    border-color: white;
+    border-style:solid;
+    border-width: 2px;
+    height: 30px;
+    width: 200px;
+    color: #ab6b9f;
+    text-align: center;
+   
+}
+
+.input2-class{
+    margin:20px;
+}
+
+
+::placeholder{
+    color: #ab6b9f;
+    padding: 20px;
+}
+
+button{
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+    border-style:solid;
+    width: 100px;
+    height: 30px;
+    
+    margin: 20px;
+}
+
+form{
+    margin: 20px;
+    
+}
+
+ul{
+    list-style-type:none;
+    
+}
+.elements-class{
+    display:flex;
+    color: #dcecff;
+    padding: 20px;
+    background-color: #84b6f4;
+    margin: 20px;
+    border-radius: 50px;
+    border-color: #e5f0ff;
+    border-style:dashed;
+    border-width: 5px;
+    
+}
+
+.checkboxclass{
+    padding: 50px;
+    margin: 20px;
+}
+
+
