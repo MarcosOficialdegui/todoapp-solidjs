@@ -54,7 +54,7 @@ function App() {
           <li  style={{
             textDecoration: task.completed ? 'line-through' : 'none'
           }} key={task.id}>
-            <div>
+            <div class="entero-class">
 
               <div class="elements-class">
                 
@@ -69,9 +69,10 @@ function App() {
 
               </div>
               
-              <div>
+              <div class="eliminar-class">
                 <button onClick={() => deleteTask(task.id)}>Eliminar</button>
               </div>
+              
 
             </div>
           </li>

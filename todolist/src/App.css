@@ -1,17 +1,20 @@
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 74, 76, 0.223);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .input1-class{
-    background-color: #fff4fd;
+    background-color: rgba(0, 74, 76, 0.223);
     border-radius: 20px;
     margin-right: 20px;
-    border-color: white;
+    border-color: rgb(0, 0, 0);
     border-style:solid;
-    border-width: 2px;
-    height: 30px;
+    border-width: 0px;
+    height: 40px;
     width: 200px;
-    color: #ab6b9f;
+    color: white;
     text-align: center;
    
 }
@@ -22,18 +25,17 @@ h1{
 
 
 ::placeholder{
-    color: #ab6b9f;
+    color: #ffffff8a;
     padding: 20px;
 }
 
 button{
-    border-radius: 20px;
-    background-color: white;
-    border-color: white;
-    border-style:solid;
-    width: 100px;
-    height: 30px;
-    
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.201);
+    border-width: 0px;
+    width: 120px;
+    height: 40px;
+    color: white;
     margin: 20px;
 }
 
@@ -46,16 +48,30 @@ ul{
     list-style-type:none;
     
 }
+
+.entero-class{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.098);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:10px;
+    margin:20px;
+}
+
 .elements-class{
     display:flex;
-    color: #dcecff;
+    color: #dcecffa3;
     padding: 20px;
-    background-color: #84b6f4;
+    background-color: #00000055;
     margin: 20px;
-    border-radius: 50px;
-    border-color: #e5f0ff;
-    border-style:dashed;
-    border-width: 5px;
+    border-radius: 10px;
+    border-color: #65ffd8;
+    border-style:solid;
+    border-width: 2px;
+    border-style: groove;
+    
+    width: 600px;
     
 }
 
@@ -65,3 +81,6 @@ ul{
 }
 
 
+.eliminar-class{
+    align-self: center;
+}
